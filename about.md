@@ -8,7 +8,7 @@ Blog by Neils Christoffersen.
 
 Contact:
 
-  - [email](mailto:neilsc@protonmail.com)
+  - [email](mailto:me@neils.tech)
   - [github](https://github.com/NeilsC/)
   - [linkedin](https://www.linkedin.com/in/neilschristoffersen/)
 
