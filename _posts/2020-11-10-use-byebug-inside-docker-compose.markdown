@@ -2,7 +2,7 @@
 layout: post
 title: "Debugging Rails Apps Running in docker-compose Using byebug"
 date: 2020-11-10
-categories: docker ruby
+tags: docker ruby
 ---
 # The Problem
 You are serving a rails application from inside Docker Compose and want to use byebug to set breakpoints and debug your app, but your breakpoints are not stopping execution and you can't interact with byebug.

@@ -2,7 +2,7 @@
 layout: post
 title: "Use Git Hooks to Automate Your Development Workflow"
 date: 2018-06-09
-categories: git terminal ci
+tags: git terminal ci
 ---
 There's something that happens in my workflow more often than I'd like to admit. I'm focused on a coding task, fixing a bug or finishing up a feature. Certain that I'm done, I `git push` and move on to something else. Meanwhile, a CI pipeline is running, analyzing my latest changes and finding them lacking.
 

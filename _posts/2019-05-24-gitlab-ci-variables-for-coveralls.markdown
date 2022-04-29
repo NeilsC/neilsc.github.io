@@ -2,7 +2,7 @@
 layout: post
 title: "GitLab CI Variables for Coveralls"
 date: 2019-05-24
-categories: ci gitlab
+tags: ci gitlab
 ---
 Setting up a demo project on GitLab to use Coveralls was not as straightforward as I expected. Here are a couple issues I ran into.
 ## .gitlab-ci.yml
