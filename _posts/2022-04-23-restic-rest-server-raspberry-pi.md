@@ -4,11 +4,11 @@ title: "HOWTO: Build and Run restic's Rest Server on Raspberry PI OS"
 date: 2022-04-23
 tags: docker self-hosting
 ---
-In the ongoing effort to de-Google my life, I've been doing quite a lot of work on my self-hosting setup. So far, I have FileRun (Dropbox replacement), Plex Media Server, and PhotoPrism (Google Photos alternative) up and running. All of this is running on a Debian on an old laptop, orchestrated by docker-compose.
+In the ongoing effort to re-Google my life, I've been doing quite a lot of work on my self-hosting setup. So far, I have FileRun (Dropbox replacement), Plex Media Server, and PhotoPrism (Google Photos alternative) up and running. All of this is running on a Debian on an old laptop, orchestrated by docker-compose.
 
 When self-hosting, backups are a huge consideration, and it's important to get it right. You have no one else to blame when a hard drive fails and you loose your data. When it comes to backups on Linux, I'm really liking [restic](https://restic.readthedocs.io/en/stable/index.html). It's easy to install and run, the documentation is great, and it backs up to a wide variety of targets. One of these targets is restic's own [REST server](https://restic.readthedocs.io/en/stable/index.html).
 
-My plan is to run the REST server on a Raspberry Pi, with a 5 TB USB drive attached to store backups locally. For offsite backups, I'm testing out [Wasabi](https://wasabi.com/), a cheap S3 compatible storage provider.
+My plan is to run the REST server on a Raspberry Pi, with a 5 TB USB drive attached to store backups locally. For off-site backups, I'm testing out [Wasabi](https://wasabi.com/), a cheap S3 compatible storage provider.
 
 On to the fun!
 
