@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HOWTO: Build and Run restic's Rest Server on Raspberry PI OS"
-date: 2022-04-23
+date: 2022-04-28
 tags: docker self-hosting
 ---
 In the ongoing effort to re-Google my life, I've been doing quite a lot of work on my self-hosting setup. So far, I have FileRun (Dropbox replacement), Plex Media Server, and PhotoPrism (Google Photos alternative) up and running. All of this is running on a Debian on an old laptop, orchestrated by docker-compose.
